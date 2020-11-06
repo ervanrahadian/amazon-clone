@@ -1,0 +1,37 @@
+.menubar {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  background-color: #232f3e;
+  position: static;
+  top: 0;
+  z-index: 100;
+}
+
+.menubar_list {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+
+.menubar_SingleLine {
+  font-weight: 500;
+  font-size: 14px;
+  margin-right: 20px;
+  margin-top: -2px;
+}
+
+.menubar_end {
+  display: flex;
+  margin-right: 20px;
+  margin-left: auto;
+  color: white;
+  font-weight: 600;
+}
+
+.menubar_SingleLineEnd {
+  font-weight: 700;
+  font-size: 14px;
+  margin-top: -2px;
+}
